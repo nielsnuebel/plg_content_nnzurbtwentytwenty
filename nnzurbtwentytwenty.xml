@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+    <name>Content - NN ZURB TwentyTwenty</name>
+    <author>Niels Nübel</author>
+    <creationDate>15 March 2015</creationDate>
+    <copyright>Copyright (c) 2014 - 2015 Niels Nübel. All rights reserved.</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <authorEmail>niels@niels-nuebel.de</authorEmail>
+    <authorUrl>www.niels-nuebel.de</authorUrl>
+    <version>@REVISION@</version>
+    <description>ZURB TwentyTwenty highlight the differences between two images. Usage in content {twentytwenty} two images {/twentytwenty}</description>
+    <files>
+        <file plugin="nnzurbtwentytwenty">nnzurbtwentytwenty.php</file>
+    </files>
+    <media folder="media" destination="plg_content_nnzurbtwentytwenty">
+        <folder>css</folder>
+        <folder>js</folder>
+    </media>
+</extension>
